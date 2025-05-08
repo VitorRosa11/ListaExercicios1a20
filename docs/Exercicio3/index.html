@@ -10,6 +10,11 @@
     <h1>Exercício 3 - Calculadora de IMC</h1>
     <p>O usuário informa peso e altura. O sistema calcula o IMC, mostra o valor e uma mensagem correspondente: (ex: Abaixo do peso, normal, obeso...)</p>
     
+    <label>Peso (kg): <input type="number" id="peso" step="0.1"></label><br>
+    <label>Altura (m): <input type="number" id="altura" step="0.01"></label><br><br>
+
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <p id="resultado"></p>
     <script src="script.js"></script>
 </body>
 </html>
