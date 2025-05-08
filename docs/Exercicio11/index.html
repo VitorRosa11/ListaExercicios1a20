@@ -8,7 +8,16 @@
 </head>
 <body>
     <h1>Exercício 11 - Simulador de Caixa Eletrônico</h1>
-    <p>O usuário digita um valor e o sistema mostra quantas notas de cada valor serão usadas (R$100, R$50, R$10, R$1).</p>
+    <p>O usuário digita um valor e o sistema mostra quantas notas de cada valor serão usadas.</p>
+
+     <label>Valor a sacar (R$):
+    <input type="number" id="valor" placeholder="Ex: 187">
+  </label>
+
+  <button onclick="simularCaixa()">Simular Saque</button>
+
+  <div id="resultado"></div>
+
 
     <script src="script.js"></script>
     

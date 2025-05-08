@@ -1,4 +1,72 @@
-body{
+:root {
+    --bg-color: #e6f0fa;
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+    --text-color: #2d2d2d;
+    --input-bg: #ffffff;
+    --result-bg: #dce9f4;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(44, 62, 80, 0.1);
+  }
+  
+  h1 {
     text-align: center;
-   
-}
+    color: var(--primary-color);
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: var(--input-bg);
+    border: 1px solid #b0c4de;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: var(--primary-color);
+  }
+  
+  #resultado {
+    margin-top: 25px;
+    font-size: 18px;
+    background-color: var(--result-bg);
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #a4bfd5;
+  }
+  

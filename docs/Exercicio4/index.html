@@ -10,6 +10,17 @@
     <h1>Exercício 4 - Calculadora Básica</h1>
     <p>Criar um formulário com dois campos numéricos e um seletor de operação (adição, subtração, multiplicação ou divisão). Exiba o resultado ao final.</p>
 
+ <label>Número 1: <input type="number" id="num1"></label><br>
+ <label>Número 2: <input type="number" id="num2"></label><br>
+ <label>Operação: <select id="operacao"><option value="+">Adição</option>
+<option value="-">Subtração</option>
+<option value="*">Multiplicação</option>
+<option value="/">Divisão</option>
+
+</select></label><br><br>
+
+<button onclick="calcular()">Calcular</button>
+<p id="resultado"></p>
     <script src="script.js"></script>
     
 </body>

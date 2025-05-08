@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercício 14 - Simulador de Sorteio</h1>
+    <p>Receba dois valores e sorteie um número entre eles.</p>
+
+     <div class="container">
+        <h1>Simulador de Sorteio</h1>
+        
+        <div class="controles">
+            <div class="grupo-input">
+                <label for="minimo">Valor mínimo:</label>
+                <input type="number" id="minimo" min="0" value="1">
+            </div>
+            
+            <div class="grupo-input">
+                <label for="maximo">Valor máximo:</label>
+                <input type="number" id="maximo" min="1" value="100">
+            </div>
+            
+            <button id="sortear">Sortear Número</button>
+        </div>
+        
+        <div class="resultado">
+            <div id="numero-sorteado">-</div>
+            <div id="mensagem"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

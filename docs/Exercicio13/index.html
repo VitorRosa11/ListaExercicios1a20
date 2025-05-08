@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercício 13 - Gerenciador de Senhas Aleatórias</h1>
+    <p>Usuário escolhe o tamanho da senha e clica em "Gerar". A senha gerada deve conter letras, números e símbolos.</p>
+
+     <div class="container">
+        <h1>Gerador de Senhas Seguras</h1>
+        
+        <div class="controles">
+            <div class="grupo-input">
+                <label for="tamanho">Tamanho da senha:</label>
+                <input type="number" id="tamanho" min="6" max="50" value="12">
+            </div>
+            
+            <div class="opcoes">
+                <label>
+                    <input type="checkbox" id="maiusculas" checked> Letras maiúsculas
+                </label>
+                <label>
+                    <input type="checkbox" id="minusculas" checked> Letras minúsculas
+                </label>
+                <label>
+                    <input type="checkbox" id="numeros" checked> Números
+                </label>
+                <label>
+                    <input type="checkbox" id="simbolos" checked> Símbolos
+                </label>
+            </div>
+            
+            <button id="gerar">Gerar Senha</button>
+        </div>
+        
+        <div class="resultado">
+            <input type="text" id="senha" readonly>
+            <button id="copiar">Copiar</button>
+        </div>
+        
+        <div class="medidor-forca">
+            <div class="barra-forca" id="barra-forca"></div>
+            <div class="texto-forca" id="texto-forca"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
