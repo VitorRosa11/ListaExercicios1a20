@@ -100,4 +100,34 @@
 }
 
 
+.grid-exercicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card-exercicio {
+  background-color: #f0f7ff;
+  border: 1px solid #bcd8f0;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.2s, background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card-exercicio:hover {
+  background-color: #dcefff;
+  transform: translateY(-4px);
+}
+
+.card-exercicio a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 600;
+  display: block;
+}
+
+
+
   
