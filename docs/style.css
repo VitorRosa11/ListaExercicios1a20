@@ -69,4 +69,35 @@
     border-radius: 6px;
     border: 1px solid #a4bfd5;
   }
+
+  .lista-exercicios {
+  padding: 0;
+  list-style: none;
+}
+
+.lista-exercicios li {
+  margin: 12px 0;
+  padding: 10px 15px;
+  background-color: #f0f7ff;
+  border: 1px solid #bcd8f0;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.lista-exercicios li:hover {
+  background-color: #d9ecff;
+  transform: translateX(5px);
+}
+
+.lista-exercicios a {
+  color: #2c3e50;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lista-exercicios a:hover {
+  text-decoration: underline;
+}
+
+
   

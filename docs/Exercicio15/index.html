@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio15</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercício 15 - Enquete com Votos</h1>
+    <p>Criando uma enquete com pelo menos três opções. O total de votos e a porcentagem de cada opção é exibido.</p>
+
+      <form id="enquete">
+    <label><input type="radio" name="opcao" value="frio"> Frio</label><br>
+    <label><input type="radio" name="opcao" value="calor"> Calor</label><br>
+    <label><input type="radio" name="opcao" value="nenhum"> Nenhum</label><br>
+
+    <button type="button" onclick="votar()">Votar</button>
+  </form>
+
+  <div id="resultado"></div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
